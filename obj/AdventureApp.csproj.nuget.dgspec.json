@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/narcisolobo/Desktop/AdventureApp/AdventureApp.csproj": {}
+    "/Users/janiceaine/GitHub/2025-WOS/programming-fundamentals/Assignments/week8/AdventureApp/AdventureApp.csproj": {}
   },
   "projects": {
-    "/Users/narcisolobo/Desktop/AdventureApp/AdventureApp.csproj": {
+    "/Users/janiceaine/GitHub/2025-WOS/programming-fundamentals/Assignments/week8/AdventureApp/AdventureApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/narcisolobo/Desktop/AdventureApp/AdventureApp.csproj",
+        "projectUniqueName": "/Users/janiceaine/GitHub/2025-WOS/programming-fundamentals/Assignments/week8/AdventureApp/AdventureApp.csproj",
         "projectName": "AdventureApp",
-        "projectPath": "/Users/narcisolobo/Desktop/AdventureApp/AdventureApp.csproj",
-        "packagesPath": "/Users/narcisolobo/.nuget/packages/",
-        "outputPath": "/Users/narcisolobo/Desktop/AdventureApp/obj/",
+        "projectPath": "/Users/janiceaine/GitHub/2025-WOS/programming-fundamentals/Assignments/week8/AdventureApp/AdventureApp.csproj",
+        "packagesPath": "/Users/janiceaine/.nuget/packages/",
+        "outputPath": "/Users/janiceaine/GitHub/2025-WOS/programming-fundamentals/Assignments/week8/AdventureApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/narcisolobo/.nuget/NuGet/NuGet.Config"
+          "/Users/janiceaine/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/janiceaine/.dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

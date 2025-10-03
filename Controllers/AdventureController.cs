@@ -33,7 +33,10 @@ public class AdventureController : Controller
         }
         if (instrument == "drums")
         {
-            content = @"The drums seem to play themselves. A dark rhythm develops.";
+            content =
+                @"The drums seem to play themselves. A dark rhythm develops. Choose your fate and you must sing the song of choice: 
+            <a href='/adventure/lockedout'>Locked out of Heaven</a>
+            <a href='/adventure/mirrors'>Mirrors</a>";
         }
 
         return Content(content, "text/html");
@@ -50,6 +53,29 @@ public class AdventureController : Controller
     public IActionResult Smoke(string smoke)
     {
         var content = "You play Smoke on the water. You rock it out.";
+        return Content(content, "text/html");
+    }
+
+    [HttpGet("lockedout")]
+    public IActionResult Lockedout(string lockedout)
+    {
+        var content =
+            "You make me feel like...&#x1F468;&#x1F3FB;&zwj;&#x1F3A4; I&apos;ve been lockedout. Heaven!";
+        return Content(content, "text/html");
+    }
+
+    [HttpGet("mirrors")]
+    public IActionResult Mirrors(string mirrors)
+    {
+        var content =
+            "I&apos;m Looking right at the other half of me &#x1FA9E;!  <a href='/adventure/chickfila'>Chick-Fil-A</a>";
+        return Content(content, "text/html");
+    }
+
+    [HttpGet("chickfila")]
+    public IActionResult Mirrors(string chickfila)
+    {
+        var content = "ahhhhhhhhhhhhhh!";
         return Content(content, "text/html");
     }
 }
